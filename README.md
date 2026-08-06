@@ -2,6 +2,14 @@
 
 SynthDoc is a multi-modal AI framework designed to detect forged, tampered, and synthetic identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License, UPI QR). It utilizes a three-stream architecture fused through a calibrated meta-classifier to output risk probabilities and evidence logs.
 
+🔗 **Live Explainer & Demo**: [https://explainer-tau.vercel.app/](https://explainer-tau.vercel.app/)
+
+---
+
+## 🎬 Platform Demonstration
+
+![SynthDoc Live Demo](assets/demo.gif)
+
 ---
 
 ## 🏛️ System Architecture
@@ -46,6 +54,12 @@ SynthDoc is a multi-modal AI framework designed to detect forged, tampered, and 
 
 ---
 
+## 🔗 Live Interactive Links
+
+- **Explainer & App Web Portal**: [https://explainer-tau.vercel.app/](https://explainer-tau.vercel.app/)
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
@@ -74,6 +88,8 @@ Navigate to `http://localhost:8501` in your browser.
 
 ```
 SynthDoc/
+├── assets/
+│   └── demo.gif              # Visual demo animation
 ├── api/
 │   ├── main.py              # FastAPI server (/v1/verify)
 │   └── pipeline.py           # Multi-stream async pipeline orchestrator
