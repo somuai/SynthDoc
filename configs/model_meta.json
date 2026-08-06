@@ -1,0 +1,20 @@
+{
+    "spatial": {
+        "architecture": "EfficientNet-B4 + ViT (Cross-Attention)",
+        "input_size": [224, 224],
+        "checkpoint": "checkpoints/spatial_best.pth"
+    },
+    "frequency": {
+        "architecture": "ResNet-18 (2-channel FFT/DCT)",
+        "input_size": [224, 224],
+        "checkpoint": "checkpoints/frequency_best.pth"
+    },
+    "semantic": {
+        "engine": "Tesseract + PaddleOCR Ensemble",
+        "validators": ["Luhn", "Verhoeff", "UPI-VPA"]
+    },
+    "fusion": {
+        "architecture": "XGBoost + LightGBM + Isotonic Calibration",
+        "checkpoint": "checkpoints/fusion_latest.joblib"
+    }
+}

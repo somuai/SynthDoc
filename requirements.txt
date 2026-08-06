@@ -1,0 +1,53 @@
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+timm>=0.9.0
+transformers>=4.35.0
+
+# API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+aiofiles>=23.2.0
+
+# OCR
+pytesseract>=0.3.10
+
+# Fusion / ML
+xgboost>=2.0.0
+lightgbm>=4.1.0
+scikit-learn>=1.3.0
+shap>=0.43.0
+
+# Image processing
+albumentations>=1.3.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Experiment tracking & monitoring
+mlflow>=2.8.0
+evidently>=0.4.0
+prometheus-client>=0.19.0
+
+# QR decoding
+zxing-cpp>=2.2.0
+
+# Config
+PyYAML>=6.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+httpx>=0.25.0
+
+# Utilities
+joblib>=1.3.0
+
+# Dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
+requests>=2.31.0

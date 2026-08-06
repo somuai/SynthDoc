@@ -1,0 +1,9 @@
+[project]
+name = "synthdoc"
+version = "1.0.0"
+description = "Multi-modal AI framework for detecting synthetic Indian identity documents"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
